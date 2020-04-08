@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      flex-flow: column;
+}
+p {
+    text-align: center;
+    font-size: xx-large;
+    border: 2px dashed grey;
+    width: 40%;
+    margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+input {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 30px;
+  text-align: center;
+}
+button {
+    display: block;
+    margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+#result {
+    visibility: hidden;
+    border: none;
+}
