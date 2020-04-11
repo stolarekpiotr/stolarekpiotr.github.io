@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    table-layout: fixed;
+    width: 90vmin;
+    margin: auto;
+}
+
+.five {
+    height: 18vmin;
+    font-size: 16vmin;
+}
+
+.six {
+    height: 15vmin;
+    font-size: 13vmin;
+}
+
+.seven {
+    height: 12vmin;
+    font-size: 10vmin;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#size {
+    display: flex;
+    width: 30vmin;
+    margin: auto;
+    margin-top: 10px;
+}
