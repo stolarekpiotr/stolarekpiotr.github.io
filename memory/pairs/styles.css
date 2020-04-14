@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    table-layout: fixed;
+    width: 90vmin;
+    margin: auto;
+}
+
+.five {
+    height: 18vmin;
+    font-size: 6vmin;
+}
+
+.four {
+    height: 22vmin;
+    font-size: 8vmin;
+}
+
+.three {
+    height: 30vmin;
+    font-size: 8vmin;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+td:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+.wrapper {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+#size {
+    display : inline-flex;
+    width: 30vmin;
+}
+
+#reset {
+    display : inline-flex;
+}
+
+.bad {
+    background-color: red;
+}
+
+.good {
+    background-color: green;
+}
